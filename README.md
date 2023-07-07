@@ -1,12 +1,12 @@
-# ADO Pipeline Template for Docker build
+# ADO Pipeline Template for Docker Login
 
-This template contains a ado pipeline yaml that can be extended under other pipelines to login to docker
+This template contains an ado pipeline yaml that can be extended under other pipelines to login to the docker
 
 ## use case
 
-You need to have a service connection related to github on azure devops project.
-To call this in you pipeline you can follow this example:
-You can directly call a paticular template as per the requirement. for example: to use setup and init only.
+You need to have a service connection related to GitHub on the azure devops project.
+To call this in your pipeline you can follow this example:
+You can directly call a particular template as per the requirement. for example: to use setup and init only.
 
    ```yaml
   # azure-pipeline.yml
@@ -30,4 +30,4 @@ You can directly call a paticular template as per the requirement. for example: 
       dockerRegistryServiceConnection: ${{ parameters.RegistryToken }} 
   ```
 
-You can also use Variable Group and Azure Key vault for values.
+You can also use Variable Group and Azure Key Vault for values.
