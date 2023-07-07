@@ -4,9 +4,8 @@ This template contains an ado pipeline yaml that can be extended under other pip
 
 ## use case
 
-You need to have a service connection related to GitHub on the azure devops project.
+You need to have a service connection related to GitHub on the Azure DevOps project.
 To call this in your pipeline you can follow this example:
-You can directly call a particular template as per the requirement. for example: to use setup and init only.
 
    ```yaml
   # azure-pipeline.yml
